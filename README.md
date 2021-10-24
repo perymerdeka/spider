@@ -1,6 +1,3 @@
 ### Spider Framework
 
-scalable web framework and Scraping Framework
-
-> Inspired by Flask, Fast API and BS4
-
+scalable web and Scraping Framework
