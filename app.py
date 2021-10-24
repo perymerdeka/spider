@@ -1,12 +1,5 @@
-from starlette.applications import Starlette
-from starlette.responses import JSONResponse
-from starlette.routing import Route
+from spider import Spider
 
-async def homepage(request):
-    return JSONResponse({'hello': 'world'})
-
-# * serving web application
-
-app = Starlette(debug=True, routes=[
-    Route('/', homepage),
-])
+app = Spider(
+    debug= True
+)
